@@ -1,0 +1,12 @@
+body {
+  background: #000;
+  overflow: hidden;
+  height: 100%;
+  font-family: Lato;
+  line-height: 30px;
+  font-weight: 300;
+  font-style: normal;
+  color: #13151c;
+  font-size: 15px;
+  -webkit-font-smoothing:antialiased;
+}
