@@ -3,10 +3,28 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>Template</title>
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+  <link type="text/css"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    html {
+      height: 100%;
+    }
+
+    body {
+      background: #13151C;
+      height: 100%;
+      font-family: Lato;
+      line-height: 30px;
+      font-weight: 300;
+      font-style: normal;
+      color: #13151c;
+      font-size: 15px;
+      -webkit-font-smoothing: antialiased;
+    }
+  </style>
   <link href="http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="menu.css">
+  <link rel="stylesheet" type="text/css" href="blocks.css">
 </head>
 <body>
   <header>
@@ -45,7 +63,185 @@
       </div>
     </nav>
   </header>
+
+  <section id="accueil">
+    <div class="container-fluid">
+      <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=Grand %C3%97 Grand&w=1500&h=1100" alt="">
+    </div>
+  </section>
+
+  <section id="salons">
+    <div class="container">
+      <h2>Nos salons</h2>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <h3>Salon Polygone Riviera</h3>
+          <p>14, rue de la pompe</p>
+          <p>75012 PARIS</p>
+        </div>
+        <div class="col-sm-6">
+          <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=455%C3%97195&w=455&h=195" alt="">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=455%C3%97195&w=455&h=195" alt="">
+        </div>
+        <div class="col-sm-6">
+          <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=455%C3%97195&w=455&h=195" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="container">
+      <h2>services</h2>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <h3>Cheveux</h3>
+          <p>
+            COUPE : 25€
+            <br>
+            <small>
+              Offre spéciale : 20€ jusqu'au 31 décembre 2015
+            </small>
+          </p>
+          <p>RASAGE DE CRANE : 30€</p>
+        </div>
+
+        <div class="col-sm-6 text-right">
+          <h3>Barbe</h3>
+          <p>TAILLE DE BARBE : 15€</p>
+          <p>RASAGE A L'ANCIENNE : 30€</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <h3>Forfaits</h3>
+          <p>COUPE + TAILLE DE BARBE : 35€</p>
+          <p>COUPE + RASAGE A L'ANCIENNE : 50€</p>
+        </div>
+
+        <div class="col-sm-6 text-right">
+          <h3>Horaires</h3>
+          <p>Lundi - Samedi : 10h / 20h</p>
+          <p>Dimanche : 10h / 19h</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="produits">
+    <div class="container">
+      <h2>produits</h2>
+
+      <div class="row">
+        <div class="col-sm-3 produit border-bottom border-right">Produit</div>
+        <div class="col-sm-3 produit border-bottom border-right">Produit</div>
+        <div class="col-sm-3 produit border-bottom border-right">Produit</div>
+        <div class="col-sm-3 produit border-bottom">Produit</div>
+      </div>
+
+      <div class="row no-margin-top">
+        <div class="col-sm-3 produit border-right">Produit</div>
+        <div class="col-sm-3 produit border-right">Produit</div>
+        <div class="col-sm-3 produit border-right">Produit</div>
+        <div class="col-sm-3 produit">Produit</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="equipe">
+    <div class="container">
+      <h2>L'équipe</h2>
+
+      <div class="row">
+        <div class="col-sm-3">
+          <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=290%C3%97195&w=290&h=195" alt="">
+        </div>
+        <div class="col-sm-3">
+          <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=290%C3%97195&w=290&h=195" alt="">
+        </div>
+        <div class="col-sm-3">
+          <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=290%C3%97195&w=290&h=195" alt="">
+        </div>
+        <div class="col-sm-3">
+          <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=290%C3%97195&w=290&h=195" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="actualite">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-4 news">
+          <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=490%C3%97280&w=490&h=280" alt="">
+        </div>
+        <div class="col-sm-4 news">
+          <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=490%C3%97280&w=490&h=280" alt="">
+        </div>
+        <div class="col-sm-4 news">
+          <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=490%C3%97280&w=490&h=280" alt="">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4 news">
+          <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=490%C3%97280&w=490&h=280" alt="">
+        </div>
+        <div class="col-sm-4 news">
+          <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=490%C3%97280&w=490&h=280" alt="">
+        </div>
+        <div class="col-sm-4 news">
+          <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=490%C3%97280&w=490&h=280" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Nous contacter</h2>
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+          <div class="col-sm-3 social-icon">
+            <a href="#">
+              <span class="fa fa-facebook"></span>
+            </a>
+          </div>
+          <div class="col-sm-3 social-icon">
+            <a href="#">
+              <span class="fa fa-instagram"></span>
+            </a>
+          </div>
+          <div class="col-sm-3 social-icon">
+            <a href="#">
+              <span class="fa fa-twitter"></span>
+            </a>
+          </div>
+          <div class="col-sm-3 social-icon">
+            <a href="#">
+              <span class="fa fa-pinterest"></span>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-12">
+          <a class="mailto" href="mailto:contact@blackbeard-barbershop.com">
+            contact@blackbeard-barbershop.com
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="main.css"></script>
 </body>
 </html>
