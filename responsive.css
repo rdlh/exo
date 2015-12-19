@@ -4,6 +4,10 @@
     padding-top: 50px;
   }
 
+  .carousel-inner .item {
+    height: 100%;
+  }
+
   section h3 {
     font-size: 32px;
     line-height: 32px;
